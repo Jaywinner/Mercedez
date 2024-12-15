@@ -1,0 +1,9 @@
+<section class="product">
+    <h2>{{ product.title }}</h2>
+    <div class="product-image">
+        <model-viewer src="{{ 'mercedes-model.glb' | asset_url }}" alt="3D Model of Mercedes-Benz" auto-rotate camera-controls></model-viewer>
+    </div>
+    <p>{{ product.description }}</p>
+    <p>Price: {{ product.price | money }}</p>
+    <button>Add to Cart</button>
+</section>
