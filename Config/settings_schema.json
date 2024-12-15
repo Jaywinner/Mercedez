@@ -1,0 +1,13 @@
+[
+    {
+        "name": "General",
+        "settings": [
+            {
+                "type": "text",
+                "id": "store_name",
+                "label": "Store Name",
+                "default": "Mercedes-Benz Store"
+            }
+        ]
+    }
+]
