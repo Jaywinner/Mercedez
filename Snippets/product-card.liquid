@@ -1,0 +1,8 @@
+<div class="product-card">
+    <h3>{{ product.title }}</h3>
+    <div class="product-image">
+        <model-viewer src="{{ product.image | img_url: 'medium' }}" alt="{{ product.title }}" auto-rotate camera-controls></model-viewer>
+    </div>
+    <p>{{ product.price | money }}</p>
+    <button>Add to Cart</button>
+</div>
